@@ -1,4 +1,5 @@
 FROM alpine:3.4
+MAINTAINER dino@dinofizzotti.com
 
 RUN apk --update add \
   rsync \
